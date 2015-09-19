@@ -9,7 +9,6 @@
 #import "ViewController.h"
 #import <CoreSpotlight/CoreSpotlight.h>
 
-
 @interface ViewController ()<UITextFieldDelegate, UITableViewDataSource, UITableViewDelegate>
 
 @property (weak, nonatomic) IBOutlet UITextField *textField;
