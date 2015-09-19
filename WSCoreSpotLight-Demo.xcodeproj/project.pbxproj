@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE0322081BAD35190075A054 /* WSSpotLightHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0322071BAD35180075A054 /* WSSpotLightHelper.m */; settings = {ASSET_TAGS = (); }; };
 		FEAF47A31BAD0F6200698674 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FEAF47A21BAD0F6200698674 /* main.m */; };
 		FEAF47A61BAD0F6200698674 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FEAF47A51BAD0F6200698674 /* AppDelegate.m */; };
 		FEAF47A91BAD0F6200698674 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEAF47A81BAD0F6200698674 /* ViewController.m */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FE0322061BAD35180075A054 /* WSSpotLightHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSSpotLightHelper.h; sourceTree = "<group>"; };
+		FE0322071BAD35180075A054 /* WSSpotLightHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSSpotLightHelper.m; sourceTree = "<group>"; };
 		FEAF479E1BAD0F6200698674 /* WSCoreSpotLight-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WSCoreSpotLight-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEAF47A21BAD0F6200698674 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FEAF47A41BAD0F6200698674 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -107,6 +110,8 @@
 				FEAF47A51BAD0F6200698674 /* AppDelegate.m */,
 				FEAF47A71BAD0F6200698674 /* ViewController.h */,
 				FEAF47A81BAD0F6200698674 /* ViewController.m */,
+				FE0322061BAD35180075A054 /* WSSpotLightHelper.h */,
+				FE0322071BAD35180075A054 /* WSSpotLightHelper.m */,
 				FEAF47DA1BAD1A0300698674 /* image@2x.png */,
 				FEAF47AA1BAD0F6200698674 /* Main.storyboard */,
 				FEAF47AD1BAD0F6200698674 /* Assets.xcassets */,
@@ -276,6 +281,7 @@
 			files = (
 				FEAF47A91BAD0F6200698674 /* ViewController.m in Sources */,
 				FEAF47A61BAD0F6200698674 /* AppDelegate.m in Sources */,
+				FE0322081BAD35190075A054 /* WSSpotLightHelper.m in Sources */,
 				FEAF47A31BAD0F6200698674 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
